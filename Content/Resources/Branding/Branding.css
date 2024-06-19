@@ -1,0 +1,19 @@
+/*<meta />*/
+
+/* MadCap-Branding applanguage:Templates/Projects/Online & Print/Side Navigation and PDF/ */
+
+:root
+{
+	--FontFamily: Arial, Avenir, Myriad;
+	--Primary: #4E91C9;
+	--Light: #81C9EA;
+	--Lightest: #FBF8EF;
+	--Medium: #1B58A8;
+	--Dark: #0E2C54;
+	--Darkest: #07162A;
+	--Secondary: #C9EBF5;
+	--HeroImage: url('../Images/Assets/HeroImage/im_hero-print_v.png');
+	--LogoImage: url('../Images/Assets/PlaceholderLogo/EC-logo-mniejsze.png');
+	--LogoImagePrint: url('../Images/Assets/PlaceholderLogo/EC-logo-mniejsze.png');
+}
+
