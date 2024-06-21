@@ -847,6 +847,9 @@ ol ul
 		font-size: 25pt;
 		line-height: 27pt;
 		margin-bottom: 20px;
+		page-break-after: avoid;
+		page-break-inside: avoid;
+		page-break-before: avoid;
 	}
 
 	h2
