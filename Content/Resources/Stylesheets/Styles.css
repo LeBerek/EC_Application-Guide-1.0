@@ -6,7 +6,7 @@ body
 {
 	color: #0E2C54;
 	font-family: Arial, Avenir, Myriad;
-	background: #FBF8EF;
+	background-color: #fbf8ef;
 }
 
 .body-container
@@ -37,8 +37,8 @@ div.GlossaryPageHeading
 	padding-bottom: 20px;
 	padding-top: 20px;
 	padding-right: 10px;
-	background-image: url('../Images/Backmatter-Heading-Background.png');
 	background-repeat: no-repeat;
+	background-image: url('../Images/Backmatter-Heading-Background-Light.png');
 }
 
 div.GlossaryPageTerm
@@ -824,7 +824,7 @@ ol ul
 		font-size: 11pt;
 		line-height: 13pt;
 		margin: 8px;
-		background: #ffffff;
+		background-color: transparent;
 	}
 
 	/* Content */
@@ -849,7 +849,7 @@ ol ul
 		margin-bottom: 20px;
 		page-break-after: avoid;
 		page-break-inside: avoid;
-		page-break-before: avoid;
+		page-break-before: always;
 	}
 
 	h2
@@ -859,6 +859,7 @@ ol ul
 		line-height: 23pt;
 		margin-bottom: 18px;
 		margin-top: 40px;
+		page-break-before: avoid;
 	}
 
 	h3
@@ -868,6 +869,7 @@ ol ul
 		line-height: 17pt;
 		margin-bottom: 15px;
 		margin-top: 40px;
+		mc-heading-level: 0;
 	}
 
 	/* Links */
@@ -892,6 +894,119 @@ ol ul
 		border-right-color: #81c9ea;
 		letter-spacing: 0.12em;
 		text-align: center;
+		mc-heading-level: 0;
+	}
+
+	h4
+	{
+		mc-heading-level: 0;
+	}
+
+	h5
+	{
+		mc-heading-level: 0;
+	}
+
+	h6
+	{
+		mc-heading-level: 0;
+	}
+
+	div.GlossaryPageHeading
+	{
+		border-bottom-color: #81C9EA;
+		background-image: url('../Images/Backmatter-Heading-Background-Secondary.png');
+	}
+
+	h1.TOC
+	{
+		text-transform: uppercase;
+		mc-heading-level: 9;
+		background: #4e91c9;
+		color: #ffffff;
+	}
+
+	div.TOC
+	{
+		left: -2in;
+		position: absolute;
+		width: 10in;
+		z-index: -1;
+		height: 5rem;
+		margin-top: 2rem;
+		background-color: #4e91c9;
+	}
+
+	p.TOC9
+	{
+		color: transparent;
+		font-size: 1pt;
+		mc-pagenum-display: none;
+	}
+
+	p.TOC1
+	{
+		font-weight: bold;
+		margin-left: 0pt;
+		mc-leader-format: '_';
+		page-break-after: avoid;
+		font-size: 14pt;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	p.TOC2
+	{
+		font-size: 12pt;
+		margin-left: 0.5in;
+		margin-top: 13px;
+		page-break-after: inherit;
+	}
+
+	p.TOC4
+	{
+		mc-heading-level: 0;
+	}
+
+	p.TOC5
+	{
+		mc-heading-level: 0;
+	}
+
+	p.TOC6
+	{
+		mc-heading-level: 0;
+	}
+
+	p.title-fm
+	{
+		font-size: 24pt;
+	}
+
+	p.title-page-h-pdf
+	{
+		font-weight: bold;
+		color: #1b58a8;
+		margin-bottom: 40px;
+		margin-top: 30px;
+		background-color: #c9ebf5;
+		font-size: 28pt;
+		line-height: 34pt;
+	}
+
+	p.title-page-p-pdf
+	{
+		margin-top: 20px;
+		margin-bottom: 40px;
+		background-color: #c9ebf5;
+	}
+
+	p.TOC3
+	{
+		font-size: 12pt;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		page-break-after: inherit;
 	}
 }
 
@@ -1105,5 +1220,35 @@ div.home-section-home
 strong.star
 {
 	color: #1b58a8;
+}
+
+p.title-fm
+{
+	font-size: 55pt;
+	line-height: 65pt;
+	margin-top: 30px;
+	mc-hyphenate: never;
+}
+
+p.title-page-h-pdf
+{
+	font-size: 12.0pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20pt;
+	letter-spacing: 0.25px;
+	widows: 3;
+	orphans: 3;
+}
+
+p.title-page-p-pdf
+{
+	font-size: 12.0pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20pt;
+	letter-spacing: 0.25px;
+	widows: 3;
+	orphans: 3;
 }
 
