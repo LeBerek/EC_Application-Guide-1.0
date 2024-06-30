@@ -1252,3 +1252,15 @@ p.title-page-p-pdf
 	orphans: 3;
 }
 
+img.small
+{
+	border: none;
+	max-width: 50%;
+}
+
+img.x-small
+{
+	border: none;
+	max-width: 35%;
+}
+
